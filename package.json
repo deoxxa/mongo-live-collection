@@ -1,0 +1,32 @@
+{
+  "name": "mongo-live-collection",
+  "version": "0.0.0",
+  "description": "[Array √] [EventEmitter √] [MongoDB Collection √]",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/deoxxa/mongo-live-collection.git"
+  },
+  "keywords": [
+    "mongodb",
+    "live",
+    "collection",
+    "changes",
+    "updates",
+    "events",
+    "monitor",
+    "watch"
+  ],
+  "author": "Conrad Pankoff <deoxxa@fknsrs.biz> (http://www.fknsrs.biz/)",
+  "license": "BSD",
+  "bugs": {
+    "url": "https://github.com/deoxxa/mongo-live-collection/issues"
+  },
+  "dependencies": {
+    "mongoskin": "~0.6.0",
+    "mongo-oplog-watcher": "~0.0.1"
+  }
+}
