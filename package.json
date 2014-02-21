@@ -1,6 +1,6 @@
 {
   "name": "mongo-live-collection",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "[Array √] [EventEmitter √] [MongoDB Collection √]",
   "main": "index.js",
   "scripts": {
