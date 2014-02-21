@@ -18,6 +18,8 @@ var LiveCollection = module.exports = function LiveCollection(options) {
       self.push(doc);
     });
 
+    self.emit("sync", self);
+
     var watcher = new OplogWatcher({
       host: options.host || "localhost",
       ns: [options.database, options.collection].join("."),
